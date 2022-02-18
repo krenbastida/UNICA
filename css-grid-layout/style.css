@@ -2,51 +2,115 @@
 
 
 .wrapper {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
     font-family: 'Lato', sans-serif;
-    width: 360px;
+    align-items: center;
+    margin: 0;
+    padding: 15px;
+    justify-content: center;
     color:#edeff3;
-    grid-gap: 5px;
+  }
+  
+
+  .container1 {
+    display: flex;
+    background: #819d9f;
+    padding: 15px 15px;
+    border-radius: 10px;
+    flex-direction: column;
+    width: 300px;
+  }
+
+  .dia{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    
+  }
+  .dia-texto {
+    margin-top: 5px;
+    height: 50px;
+    align-items: center;
+  }
+
+  .clima{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    padding: 10px;
+  }
+
+  .grados p{
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+  
+  .container2 {
+    display: flex;
+    background: #232830;
+    width: 300px;
+    border-radius: 10px;
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .datos{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .datos-texto{
+    margin: 5px;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .datos-texto p{
+    width: fit-content;
+  }
+
+  .botones{
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .boton{
     align-items: center;
   }
   
-  .container1 {
-    display: grid;
-    grid-template-rows: repeat(2, 1fr);
-    width: 260px;
-    height: 360px;
-    border-radius: 10px;
-    background: #819d9f;
-    padding: 0rem 1rem;
+  /* .datos{
+    display: flex;
+    flex-direction: row;
+    background: red;
+    padding: 10px;
   }
 
-  .container2 {
-    display: grid;
-    grid-template-rows: repeat(2, 1fr);
-    background: #232830;
-    width: 280px;
-    height: 350px;
-    border-radius: 10px;
-  }
-  .card1{
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-  }
-  .card2{
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
-  }
-  .card3{
-    display: flex;
+  .datos-texto-izq{
+    background-color: purple;
+    margin: 5px;
     justify-content: space-around;
-    align-items: flex-start;
   }
-  .card4{
+
+  .datos-texto-der{
+    background-color: yellowgreen;
+    margin: 5px;
+    justify-content: space-around;
+  }
+
+  .botones{
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
+    margin-top: 50px;
+    flex-direction: column;
+    background: cyan;
+    padding: 10px;
   }
-  
+
+  .boton{
+    background: green;
+    ;
+  }
+  */

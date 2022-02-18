@@ -19,6 +19,7 @@
     border-radius: 10px;
     flex-direction: column;
     width: 300px;
+    height: 380px;
   }
 
   .dia{
@@ -50,6 +51,7 @@
     display: flex;
     background: #232830;
     width: 300px;
+    height: 365px;
     border-radius: 10px;
     flex-direction: column;
     padding: 10px;

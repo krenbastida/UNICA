@@ -15,22 +15,34 @@
   .container1 {
     display: flex;
     background: #819d9f;
-    padding: 15px 15px;
+    padding: 15px 25px;
     border-radius: 10px;
     flex-direction: column;
     width: 300px;
-    height: 380px;
+    height: 380px
   }
 
   .dia{
     display: flex;
-    flex-direction: column;
-    padding: 10px;
+    flex-direction: column;  
+
+  }
+  .dia-texto-wd{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    height: 40px;
+  }
+  .dia-texto-wd p{
+    font-size: 35px;
     
   }
-  .dia-texto {
-    margin-top: 5px;
-    height: 50px;
+  .dia-texto-fd{
+    display: flex;
+    align-items:  center;
+    height: 15px;
+  }
+  .dia-texto-ct{
     align-items: center;
   }
 
@@ -38,12 +50,23 @@
     display: flex;
     flex-direction: column;
     margin-top: 50px;
-    padding: 10px;
   }
-
-  .grados p{
-    font-size: 40px;
+  .icono{
+    display: flex;
+  }
+  .temperatura p{
+    margin: 0;
+    display: flex;
+    font-size: 50px;
     font-weight: bold;
+  }
+  .grados{
+    display: flex;
+    align-items: center;
+    height: 30px;
+  }
+  .grados p{
+    font-size: 20px;
   }
 
   
@@ -51,68 +74,56 @@
     display: flex;
     background: #232830;
     width: 300px;
-    height: 365px;
+    height: 360px;
     border-radius: 10px;
     flex-direction: column;
-    padding: 10px;
+    padding: 15px;
   }
 
   .datos{
     display: flex;
     flex-direction: column;
-    padding: 10px;
+    padding: 0px 15px;
   }
 
   .datos-texto{
-    margin: 5px;
+    display: flex;
+    margin: 0px;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
   }
-
-  .datos-texto p{
+    .datos-texto p{
     width: fit-content;
   }
 
   .botones{
     display: flex;
-    margin-top: 50px;
+    margin-top: 20px;
     flex-direction: column;
-    padding: 10px;
   }
-
   .boton{
+    margin-bottom: 15px;
+    display: flex;
+  }
+  .boton button{
+    display: flex;
+    margin: auto;
+    background-color: #6481a8;
+    border-radius: 10px;
+    height: 40px;
+    width: 250px;
     align-items: center;
+    justify-content: center;
+    color: #dce1e9;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
   }
-  
-  /* .datos{
+  .buscador{
     display: flex;
-    flex-direction: row;
-    background: red;
-    padding: 10px;
+    justify-content: center;
   }
-
-  .datos-texto-izq{
-    background-color: purple;
-    margin: 5px;
-    justify-content: space-around;
+  .buscador input{
+    height: 35px;
+    width: 250px;
+    border-radius: 10px;
   }
-
-  .datos-texto-der{
-    background-color: yellowgreen;
-    margin: 5px;
-    justify-content: space-around;
-  }
-
-  .botones{
-    display: flex;
-    margin-top: 50px;
-    flex-direction: column;
-    background: cyan;
-    padding: 10px;
-  }
-
-  .boton{
-    background: green;
-    ;
-  }
-  */

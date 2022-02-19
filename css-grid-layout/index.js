@@ -17,7 +17,7 @@ const request = async () => {
 
     try {
         let city = document.getElementById('buscador').value
-        console.log(city)
+        //console.log(city)
         if(!city){
             city = 'Mexico City'
         }
@@ -28,7 +28,7 @@ const request = async () => {
             )
         const res = await data.json()
         const icon = `http://openweathermap.org/img/wn/${res.weather[0].icon}@2x.png`
-        console.log(res)
+        //console.log(res)
 
         const elementWeather = document.getElementById('weather')
         elementWeather.innerHTML = `<p> ${res.weather[0].main} </p>`
